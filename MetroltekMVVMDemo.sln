@@ -5,6 +5,24 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetroltekMVVMDemo", "MetroltekMVVMDemo\MetroltekMVVMDemo.csproj", "{9427842E-AADE-4E98-BEA2-162C18B45DA3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6F2B6DE7-DC4C-4673-9ED7-1D375695543B}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{93A9B32A-606D-49F3-B634-BE2001531301}"
+	ProjectSection(SolutionItems) = preProject
+		images\1.PNG = images\1.PNG
+		images\2.PNG = images\2.PNG
+		images\3.PNG = images\3.PNG
+		images\4.PNG = images\4.PNG
+		images\5.PNG = images\5.PNG
+		images\6.PNG = images\6.PNG
+		images\7.PNG = images\7.PNG
+		images\8.PNG = images\8.PNG
+		images\9.PNG = images\9.PNG
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +36,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93A9B32A-606D-49F3-B634-BE2001531301} = {6F2B6DE7-DC4C-4673-9ED7-1D375695543B}
 	EndGlobalSection
 EndGlobal
